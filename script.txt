@@ -1,0 +1,5164 @@
+; This script was created using Pulover's Macro Creator
+; www.macrocreator.com
+
+#NoEnv
+SetWorkingDir %A_ScriptDir%
+CoordMode, Mouse, Screen
+SendMode Input
+#SingleInstance Force
+SetTitleMatchMode 2
+#WinActivateForce
+SetControlDelay 1
+SetWinDelay 0
+SetKeyDelay -1
+SetMouseDelay -1
+SetBatchLines -1
+
+
+Macro1:
+Loop
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel = 0
+    If (ErrorLevel = 0)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+        }
+        Until ErrorLevel
+        If (ErrorLevel)
+        {
+            Loop
+            {
+                CoordMode, Pixel, Screen
+                PixelSearch, FoundX, FoundY, 629, 297, 673, 316, 0xFFFFFF, 5, Fast RGB
+            }
+            Until ErrorLevel = 0
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1000
+                CoordMode, Pixel, Screen
+                PixelSearch, FoundX, FoundY, 603, 283, 611, 294, 0x9F5C4E, 3, Fast RGB
+                If (ErrorLevel = 0)
+                {
+                    Sleep, 1000
+                    Send, {d Down}
+                    Sleep, 2984
+                    Send, {d Up}
+                    Goto, Macro2
+                }
+                Else
+                {
+                    Sleep, 1500
+                    Send, {w Down}
+                    Sleep, 3234
+                    Send, {w Up}
+                    Sleep, 344
+                    Send, {a Down}
+                    Sleep, 2859
+                    Send, {a Up}
+                    Sleep, 94
+                    Click, 403, 293 Left, Down
+                    Sleep, 94
+                    Click, 403, 293 Left, Up
+                    Sleep, 93
+                    Click, 403, 293 Left, Down
+                    Sleep, 94
+                    Click, 403, 293 Left, Up
+                    Sleep, 344
+                    Send, {d Down}
+                    Sleep, 2650
+                    Send, {d Up}
+                    Sleep, 219
+                    Send, {s Down}
+                    Sleep, 3297
+                    Send, {s Up}
+                    Sleep, 297
+                    Send, {d Down}
+                    Sleep, 1984
+                    Send, {d Up}
+                    Goto, Macro2
+                }
+            }
+        }
+    }
+}
+Return
+
+Macro2:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro3
+        }
+    }
+}
+Return
+
+Macro3:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro4
+        }
+    }
+}
+Return
+
+Macro4:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro5
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 610
+                Send, {w Down}
+                Sleep, 3031
+                Send, {w Up}
+                Sleep, 438
+                Send, {a Down}
+                Sleep, 2781
+                Send, {a Up}
+                Sleep, 156
+                Click, 381, 272 Left, Down
+                Sleep, 125
+                Click, 381, 272 Left, Up
+                Sleep, 406
+                Click, 381, 272 Left, Down
+                Sleep, 125
+                Click, 381, 272 Left, Up
+                Sleep, 344
+                Send, {d Down}
+                Sleep, 2625
+                Send, {d Up}
+                Sleep, 484
+                Send, {s Down}
+                Sleep, 3000
+                Send, {s Up}
+                Sleep, 375
+                Send, {d Down}
+                Sleep, 2500
+                Send, {d Up}
+                Goto, Macro5
+            }
+        }
+    }
+}
+Return
+
+Macro5:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro6
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 610
+                Sleep, 422
+                Send, {w Down}
+                Sleep, 2562
+                Send, {w Up}
+                Sleep, 266
+                Send, {a Down}
+                Sleep, 1453
+                Send, {a Up}
+                Sleep, 156
+                Click, 403, 272 Left, Down
+                Sleep, 125
+                Click, 403, 272 Left, Up
+                Sleep, 266
+                Click, 403, 272 Left, Down
+                Sleep, 156
+                Click, 403, 272 Left, Up
+                Sleep, 359
+                Click, 403, 272 Left, Down
+                Sleep, 110
+                Click, 403, 272 Left, Up
+                Sleep, 343
+                Send, {d Down}
+                Sleep, 1391
+                Send, {d Up}
+                Sleep, 500
+                Send, {s Down}
+                Sleep, 2469
+                Send, {s Up}
+                Sleep, 344
+                Send, {d Down}
+                Sleep, 2203
+                Send, {d Up}
+                Goto, Macro6
+            }
+        }
+    }
+}
+Return
+
+Macro6:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro7
+        }
+    }
+}
+Return
+
+Macro7:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro8
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 610
+                Sleep, 297
+                Send, {w Down}
+                Sleep, 2797
+                Send, {w Up}
+                Sleep, 297
+                Send, {a Down}
+                Sleep, 1609
+                Send, {a Up}
+                Sleep, 47
+                Click, 408, 303 Left, Down
+                Sleep, 110
+                Click, 408, 303 Left, Up
+                Sleep, 468
+                Click, 408, 303 Left, Down
+                Sleep, 188
+                Click, 408, 303 Left, Up
+                Sleep, 187
+                Click, 408, 303 Left, Down
+                Sleep, 110
+                Click, 408, 303 Left, Up
+                Sleep, 390
+                Send, {d Down}
+                Sleep, 1563
+                Send, {d Up}
+                Sleep, 469
+                Send, {s Down}
+                Sleep, 2687
+                Send, {s Up}
+                Sleep, 656
+                Send, {d Down}
+                Sleep, 2016
+                Send, {d Up}
+                Goto, Macro8
+            }
+        }
+    }
+}
+Return
+
+Macro8:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro9
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 610
+                Sleep, 328
+                Send, {w Down}
+                Sleep, 3375
+                Send, {w Up}
+                Sleep, 297
+                Send, {a Down}
+                Sleep, 2516
+                Click, 355, 302 Left, Down
+                Sleep, 15
+                Send, {a Up}
+                Sleep, 94
+                Click, 357, 301 Left, Up
+                Sleep, 641
+                Click, 374, 282 Left, Down
+                Sleep, 125
+                Click, 374, 282 Left, Up
+                Sleep, 547
+                Send, {d Down}
+                Sleep, 2578
+                Send, {d Up}
+                Sleep, 297
+                Send, {s Down}
+                Sleep, 3437
+                Send, {s Up}
+                Sleep, 313
+                Send, {d Down}
+                Sleep, 1984
+                Send, {d Up}
+                Goto, Macro9
+            }
+        }
+    }
+}
+Return
+
+Macro9:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro10
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 610
+                Sleep, 500
+                Send, {w Down}
+                Sleep, 3281
+                Send, {w Up}
+                Sleep, 266
+                Send, {a Down}
+                Sleep, 2672
+                Send, {a Up}
+                Sleep, 47
+                Click, 395, 278 Left, Down
+                Sleep, 125
+                Click, 395, 278 Left, Up
+                Sleep, 640
+                Click, 395, 278 Left, Down
+                Sleep, 266
+                Click, 395, 278 Left, Up
+                Sleep, 891
+                Send, {d Down}
+                Sleep, 2609
+                Send, {d Up}
+                Sleep, 281
+                Send, {s Down}
+                Sleep, 3172
+                Send, {s Up}
+                Sleep, 422
+                Send, {d Down}
+                Sleep, 2047
+                Send, {d Up}
+                Goto, Macro10
+            }
+        }
+    }
+}
+Return
+
+Macro10:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro11
+        }
+    }
+}
+Return
+
+Macro11:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro12
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 421
+                Send, {w Down}
+                Sleep, 2625
+                Send, {w Up}
+                Sleep, 203
+                Send, {a Down}
+                Sleep, 1766
+                Sleep, 31
+                Send, {a Up}
+                Click, 423, 295 Left, Down
+                Sleep, 78
+                Click, 423, 295 Left, Up
+                Sleep, 485
+                Click, 430, 298 Left, Down
+                Sleep, 203
+                Click, 430, 298 Left, Up
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1735
+                Send, {d Up}
+                Sleep, 453
+                Send, {s Down}
+                Sleep, 2547
+                Send, {s Up}
+                Sleep, 437
+                Send, {d Down}
+                Sleep, 1922
+                Send, {d Up}
+                Goto, Macro12
+            }
+        }
+    }
+}
+Return
+
+Macro12:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro13
+        }
+    }
+}
+Return
+
+Macro13:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro14
+        }
+    }
+}
+Return
+
+Macro14:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro15
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 453
+                Send, {w Down}
+                Sleep, 2390
+                Send, {w Up}
+                Sleep, 204
+                Send, {a Down}
+                Sleep, 2125
+                Send, {a Up}
+                Sleep, 62
+                Click, 426, 300 Left, Down
+                Sleep, 94
+                Click, 426, 300 Left, Up
+                Sleep, 297
+                Click, 425, 284 Left, Down
+                Sleep, 109
+                Click, 425, 284 Left, Up
+                Sleep, 594
+                Send, {d Down}
+                Sleep, 2187
+                Send, {d Up}
+                Sleep, 328
+                Send, {s Down}
+                Sleep, 2390
+                Send, {s Up}
+                Sleep, 125
+                Send, {d Down}
+                Sleep, 1813
+                Send, {d Up}
+                Sleep, 656
+                Goto, Macro15
+            }
+        }
+    }
+}
+Return
+
+Macro15:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro16
+        }
+    }
+}
+Return
+
+Macro16:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro17
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 46
+                Sleep, 766
+                Send, {w Down}
+                Sleep, 1984
+                Send, {w Up}
+                Click, 615, 297 Left, Down
+                Sleep, 110
+                Click, 615, 297 Left, Up
+                Sleep, 640
+                Send, {s Down}
+                Sleep, 1954
+                Send, {s Up}
+                Sleep, 343
+                Send, {d Down}
+                Sleep, 1953
+                Send, {d Up}
+                Goto, Macro17
+            }
+        }
+    }
+}
+Return
+
+Macro17:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro18
+        }
+    }
+}
+Return
+
+Macro18:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro19
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 375
+                Send, {w Down}
+                Sleep, 3062
+                Send, {w Up}
+                Sleep, 204
+                Send, {a Down}
+                Sleep, 2671
+                Click, 347, 280 Left, Down
+                Sleep, 32
+                Send, {a Up}
+                Sleep, 78
+                Click, 355, 269 Left, Up
+                Sleep, 140
+                Click, 345, 266 Left, Down
+                Sleep, 79
+                Click, 338, 262 Left, Up
+                Sleep, 109
+                Send, {d Down}
+                Sleep, 2781
+                Send, {d Up}
+                Sleep, 219
+                Send, {s Down}
+                Sleep, 3062
+                Send, {s Up}
+                Sleep, 282
+                Send, {d Down}
+                Sleep, 1890
+                Send, {d Up}
+                Goto, Macro19
+            }
+        }
+    }
+}
+Return
+
+Macro19:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro20
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 656
+                Send, {d Down}
+                Sleep, 1125
+                Send, {d Up}
+                Sleep, 297
+                Send, {w Down}
+                Sleep, 2900
+                Send, {w Up}
+                Sleep, 219
+                Send, {a Down}
+                Sleep, 2672
+                Send, {a Up}
+                Sleep, 15
+                Click, 432, 305 Left, Down
+                Sleep, 94
+                Click, 417, 281 Left, Up
+                Sleep, 203
+                Click, 422, 328 Left, Down
+                Sleep, 109
+                Click, 370, 314 Left, Up
+                Sleep, 282
+                Click, 381, 282 Left, Down
+                Sleep, 93
+                Click, 388, 263 Left, Up
+                Sleep, 313
+                Send, {d Down}
+                Sleep, 2100
+                Send, {d Up}
+                Sleep, 328
+                Send, {s Down}
+                Sleep, 2900
+                Send, {s Up}{d Down}
+                Sleep, 1800
+                Send, {d Up}
+                Goto, Macro20
+            }
+        }
+    }
+}
+Return
+
+Macro20:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro21
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 281
+                Send, {w Down}
+                Sleep, 3172
+                Send, {w Up}
+                Sleep, 219
+                Send, {a Down}
+                Sleep, 2796
+                Send, {a Up}
+                Sleep, 125
+                Click, 395, 278 Left, Down
+                Sleep, 94
+                Click, 395, 278 Left, Up
+                Sleep, 110
+                Click, 395, 278 Left, Down
+                Sleep, 78
+                Click, 395, 278 Left, Up
+                Sleep, 250
+                Send, {d Down}
+                Sleep, 2718
+                Send, {d Up}
+                Sleep, 329
+                Send, {s Down}
+                Sleep, 3234
+                Send, {s Up}
+                Sleep, 62
+                Send, {d Down}
+                Sleep, 2079
+                Send, {d Up}
+                Goto, Macro21
+            }
+        }
+    }
+}
+Return
+
+Macro21:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro22
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 453
+                Send, {w Down}
+                Sleep, 3300
+                Send, {w Up}
+                Sleep, 140
+                Send, {a Down}
+                Sleep, 2600
+                Send, {a Up}
+                Sleep, 141
+                Click, 407, 270 Left, Down
+                Sleep, 94
+                Click, 407, 270 Left, Up
+                Sleep, 156
+                Click, 407, 270 Left, Down
+                Sleep, 94
+                Click, 407, 270 Left, Up
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 2600
+                Send, {d Up}
+                Sleep, 313
+                Send, {s Down}
+                Sleep, 3300
+                Send, {s Up}
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1985
+                Send, {d Up}
+                Goto, Macro22
+            }
+        }
+    }
+}
+Return
+
+Macro22:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro23
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}{w Down}
+                Sleep, 2813
+                Send, {w Up}
+                Sleep, 156
+                Send, {a Down}
+                Sleep, 1688
+                Send, {a Up}
+                Sleep, 140
+                Click, 391, 319 Left, Down
+                Sleep, 94
+                Click, 391, 319 Left, Up
+                Sleep, 63
+                Click, 391, 319 Left, Down
+                Sleep, 78
+                Click, 391, 319 Left, Up
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 1656
+                Send, {d Up}
+                Sleep, 297
+                Send, {s Down}
+                Sleep, 2781
+                Send, {s Up}
+                Sleep, 156
+                Send, {d Down}
+                Sleep, 1985
+                Send, {d Up}
+                Goto, Macro23
+            }
+        }
+    }
+}
+Return
+
+Macro23:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro24
+        }
+    }
+}
+Return
+
+Macro24:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro25
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 109
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}{w Down}
+                Sleep, 2328
+                Send, {w Up}
+                Sleep, 281
+                Send, {a Down}
+                Sleep, 2062
+                Send, {a Up}
+                Sleep, 157
+                Click, 434, 273 Left, Down
+                Sleep, 109
+                Click, 434, 273 Left, Up
+                Sleep, 141
+                Click, 430, 273 Left, Down
+                Sleep, 109
+                Click, 430, 273 Left, Up
+                Sleep, 78
+                Click, 430, 273 Left, Down
+                Sleep, 94
+                Click, 430, 273 Left, Up
+                Sleep, 94
+                Click, 430, 273 Left, Down
+                Sleep, 125
+                Click, 430, 273 Left, Up
+                Sleep, 156
+                Send, {d Down}
+                Sleep, 2094
+                Send, {d Up}
+                Sleep, 234
+                Send, {s Down}
+                Sleep, 2266
+                Send, {s Up}
+                Sleep, 328
+                Send, {d Down}
+                Sleep, 1984
+                Send, {d Up}
+                Goto, Macro25
+            }
+        }
+    }
+}
+Return
+
+Macro25:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro26
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 484
+                Send, {w Down}
+                Sleep, 2438
+                Send, {w Up}
+                Sleep, 109
+                Send, {a Down}
+                Sleep, 2110
+                Send, {a Up}
+                Sleep, 203
+                Click, 443, 265 Left, Down
+                Sleep, 94
+                Click, 443, 265 Left, Up
+                Sleep, 109
+                Click, 443, 265 Left, Down
+                Sleep, 125
+                Click, 443, 265 Left, Up
+                Sleep, 47
+                Click, 443, 265 Left, Down
+                Sleep, 78
+                Click, 443, 265 Left, Up
+                Sleep, 109
+                Click, 443, 265 Left, Down
+                Sleep, 78
+                Click, 443, 265 Left, Up
+                Sleep, 204
+                Send, {d Down}
+                Sleep, 2078
+                Send, {d Up}
+                Sleep, 250
+                Send, {s Down}
+                Sleep, 2468
+                Send, {s Up}
+                Sleep, 250
+                Send, {d Down}
+                Sleep, 2125
+                Send, {d Up}
+                Goto, Macro26
+            }
+        }
+    }
+}
+Return
+
+Macro26:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro27
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 547
+                Send, {w Down}
+                Sleep, 3282
+                Send, {w Up}
+                Sleep, 203
+                Send, {a Down}
+                Sleep, 3031
+                Send, {a Up}
+                Sleep, 187
+                Click, 499, 346 Left, Down
+                Sleep, 79
+                Click, 478, 352 Left, Up
+                Sleep, 93
+                Click, 510, 353 Left, Down
+                Sleep, 47
+                Click, 525, 360 Left, Up
+                Sleep, 360
+                Send, {d Down}
+                Sleep, 2968
+                Send, {d Up}
+                Sleep, 203
+                Send, {s Down}
+                Sleep, 3329
+                Send, {s Up}
+                Sleep, 437
+                Send, {d Down}
+                Sleep, 2000
+                Send, {d Up}
+                Goto, Macro27
+            }
+        }
+    }
+}
+Return
+
+Macro27:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro28
+        }
+    }
+}
+Return
+
+Macro28:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro29
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Sleep, 390
+                Send, {w Down}
+                Sleep, 3141
+                Send, {w Up}
+                Sleep, 188
+                Send, {a Down}
+                Sleep, 2984
+                Send, {a Up}
+                Sleep, 47
+                Click, 430, 270 Left, Down
+                Sleep, 94
+                Click, 430, 270 Left, Up
+                Sleep, 125
+                Click, 430, 270 Left, Down
+                Sleep, 93
+                Click, 430, 270 Left, Up
+                Sleep, 78
+                Click, 430, 270 Left, Down
+                Sleep, 79
+                Click, 430, 270 Left, Up
+                Sleep, 78
+                Click, 430, 270 Left, Down
+                Sleep, 93
+                Click, 430, 270 Left, Up
+                Sleep, 344
+                Send, {d Down}
+                Sleep, 2813
+                Send, {d Up}
+                Sleep, 297
+                Send, {s Down}
+                Sleep, 3062
+                Send, {s Up}
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 2110
+                Send, {d Up}
+                Goto, Macro29
+            }
+        }
+    }
+}
+Return
+
+Macro29:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro30
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Send, {w Down}
+                Sleep, 1875
+                Send, {w Up}
+                Sleep, 62
+                Send, {a Down}
+                Sleep, 578
+                Send, {a Up}
+                Sleep, 94
+                Click, 403, 329 Left, Down
+                Sleep, 109
+                Click, 403, 329 Left, Up
+                Sleep, 63
+                Click, 403, 329 Left, Down
+                Sleep, 78
+                Click, 403, 329 Left, Up
+                Sleep, 63
+                Click, 403, 329 Left, Down
+                Sleep, 78
+                Click, 403, 329 Left, Up
+                Sleep, 187
+                Send, {d Down}
+                Sleep, 656
+                Send, {d Up}
+                Sleep, 250
+                Send, {s Down}
+                Sleep, 1875
+                Send, {s Up}
+                Sleep, 157
+                Send, {d Down}
+                Sleep, 1875
+                Send, {d Up}
+                Goto, Macro30
+            }
+        }
+    }
+}
+Return
+
+Macro30:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro31
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 78
+                Sleep, 500
+                Send, {w Down}
+                Sleep, 2313
+                Send, {w Up}
+                Sleep, 78
+                Click, 439, 266 Left, Down
+                Sleep, 125
+                Click, 439, 266 Left, Up
+                Sleep, 250
+                Click, 434, 239 Left, Down
+                Sleep, 109
+                Click, 434, 239 Left, Up
+                Sleep, 203
+                Click, 434, 239 Left, Down
+                Sleep, 94
+                Click, 434, 239 Left, Up
+                Sleep, 234
+                Send, {s Down}
+                Sleep, 2188
+                Send, {s Up}
+                Sleep, 187
+                Send, {d Down}
+                Sleep, 2032
+                Send, {d Up}
+                Goto, Macro31
+            }
+        }
+    }
+}
+Return
+
+Macro31:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro32
+        }
+    }
+}
+Return
+
+Macro32:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro33
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 62
+                Sleep, 281
+                Send, {w Down}
+                Sleep, 1672
+                Send, {w Up}
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 1329
+                Send, {d Up}
+                Sleep, 15
+                Click, 605, 285 Left, Down
+                Sleep, 78
+                Click, 605, 285 Left, Up
+                Sleep, 203
+                Click, 605, 285 Left, Down
+                Sleep, 79
+                Click, 605, 285 Left, Up
+                Sleep, 78
+                Click, 605, 285 Left, Down
+                Sleep, 78
+                Click, 605, 285 Left, Up
+                Sleep, 125
+                Send, {a Down}
+                Sleep, 1390
+                Send, {a Up}
+                Sleep, 329
+                Send, {s Down}
+                Sleep, 1656
+                Send, {s Up}
+                Sleep, 187
+                Send, {d Down}
+                Sleep, 1985
+                Send, {d Up}
+                Goto, Macro33
+            }
+        }
+    }
+}
+Return
+
+Macro33:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro34
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Sleep, 437
+                Send, {w Down}
+                Sleep, 2532
+                Send, {w Up}
+                Sleep, 187
+                Send, {a Down}
+                Sleep, 1672
+                Send, {a Up}
+                Sleep, 266
+                Click, 431, 305 Left, Down
+                Sleep, 109
+                Click, 431, 305 Left, Up
+                Sleep, 203
+                Click, 431, 305 Left, Down
+                Sleep, 94
+                Click, 431, 305 Left, Up
+                Sleep, 125
+                Click, 431, 305 Left, Down
+                Sleep, 94
+                Click, 431, 305 Left, Up
+                Sleep, 297
+                Send, {d Down}
+                Sleep, 1578
+                Send, {d Up}
+                Sleep, 281
+                Send, {s Down}
+                Sleep, 2422
+                Send, {s Up}
+                Sleep, 437
+                Send, {d Down}
+                Sleep, 1078
+                Send, {d Up}
+                Sleep, 125
+                Send, {s Down}
+                Sleep, 125
+                Send, {s Up}
+                Sleep, 219
+                Send, {d Down}
+                Sleep, 969
+                Send, {d Up}
+                Goto, Macro34
+            }
+        }
+    }
+}
+Return
+
+Macro34:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro35
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Sleep, 281
+                Send, {w Down}
+                Sleep, 2219
+                Send, {w Up}
+                Sleep, 219
+                Send, {d Down}
+                Sleep, 672
+                Send, {d Up}
+                Sleep, 172
+                Click, 593, 309 Left, Down
+                Sleep, 93
+                Click, 593, 309 Left, Up
+                Sleep, 125
+                Click, 593, 309 Left, Down
+                Sleep, 110
+                Click, 593, 309 Left, Up
+                Sleep, 390
+                Send, {a Down}
+                Sleep, 500
+                Send, {a Up}
+                Sleep, 500
+                Send, {a Down}
+                Sleep, 94
+                Send, {a Up}
+                Sleep, 313
+                Send, {s Down}
+                Sleep, 2187
+                Send, {s Up}
+                Sleep, 172
+                Send, {d Down}
+                Sleep, 1984
+                Send, {d Up}
+                Goto, Macro35
+            }
+        }
+    }
+}
+Return
+
+Macro35:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro36
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Sleep, 687
+                Send, {w Down}
+                Sleep, 3688
+                Send, {w Up}
+                Sleep, 218
+                Send, {a Down}
+                Sleep, 1375
+                Send, {a Up}
+                Sleep, 63
+                Click, 411, 256 Left, Down
+                Sleep, 109
+                Click, 411, 256 Left, Up
+                Sleep, 266
+                Click, 411, 256 Left, Down
+                Sleep, 94
+                Click, 411, 256 Left, Up
+                Sleep, 78
+                Click, 411, 256 Left, Down
+                Sleep, 93
+                Click, 411, 256 Left, Up
+                Sleep, 219
+                Send, {d Down}
+                Sleep, 1422
+                Send, {d Up}
+                Sleep, 266
+                Send, {s Down}
+                Sleep, 3630
+                Send, {s Up}
+                Sleep, 422
+                Send, {d Down}
+                Sleep, 1953
+                Send, {d Up}
+                Goto, Macro36
+            }
+        }
+    }
+}
+Return
+
+Macro36:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro37
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 63
+                Sleep, 469
+                Send, {w Down}
+                Sleep, 5500
+                Send, {w Up}
+                Sleep, 31
+                Click, 666, 300 Left, Down
+                Sleep, 94
+                Click, 666, 300 Left, Up
+                Sleep, 140
+                Click, 648, 314 Left, Down
+                Sleep, 94
+                Click, 648, 314 Left, Up
+                Sleep, 94
+                Click, 648, 314 Left, Down
+                Sleep, 78
+                Click, 648, 314 Left, Up
+                Sleep, 78
+                Click, 648, 314 Left, Down
+                Sleep, 94
+                Click, 648, 314 Left, Up
+                Sleep, 219
+                Send, {s Down}
+                Sleep, 5453
+                Send, {s Up}
+                Sleep, 312
+                Send, {d Down}
+                Sleep, 2063
+                Send, {d Up}
+                Sleep, 1703
+                Goto, Macro37
+            }
+        }
+    }
+}
+Return
+
+Macro37:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro38
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Sleep, 234
+                Send, {w Down}
+                Sleep, 2047
+                Send, {w Up}
+                Sleep, 94
+                Send, {d Down}
+                Sleep, 594
+                Send, {d Up}
+                Sleep, 31
+                Click, 618, 311 Left, Down
+                Sleep, 109
+                Click, 618, 311 Left, Up
+                Sleep, 79
+                Click, 618, 311 Left, Down
+                Sleep, 78
+                Click, 618, 311 Left, Up
+                Sleep, 234
+                Send, {a Down}
+                Sleep, 609
+                Send, {a Up}
+                Sleep, 266
+                Send, {s Down}
+                Sleep, 2031
+                Send, {s Up}
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 2188
+                Send, {d Up}
+                Sleep, 2609
+                Goto, Macro38
+            }
+        }
+    }
+}
+Return
+
+Macro38:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro39
+        }
+    }
+}
+Return
+
+Macro39:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro40
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 47
+                Sleep, 594
+                Send, {w Down}
+                Sleep, 1734
+                Send, {w Up}
+                Sleep, 219
+                Send, {a Down}
+                Sleep, 1344
+                Send, {a Up}
+                Sleep, 250
+                Click, 402, 277 Left, Down
+                Sleep, 93
+                Click, 402, 277 Left, Up
+                Sleep, 79
+                Click, 402, 277 Left, Down
+                Sleep, 93
+                Click, 402, 277 Left, Up
+                Sleep, 78
+                Click, 402, 277 Left, Down
+                Sleep, 94
+                Click, 402, 277 Left, Up
+                Sleep, 250
+                Send, {d Down}
+                Sleep, 1281
+                Send, {d Up}
+                Sleep, 250
+                Send, {s Down}
+                Sleep, 1719
+                Send, {s Up}
+                Sleep, 188
+                Send, {d Down}
+                Sleep, 1937
+                Send, {d Up}
+                Goto, Macro40
+            }
+        }
+    }
+}
+Return
+
+Macro40:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro41
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 515
+                Send, {w Down}
+                Sleep, 1813
+                Send, {w Up}
+                Sleep, 172
+                Send, {a Down}
+                Sleep, 1484
+                Send, {a Up}
+                Sleep, 94
+                Click, 419, 316 Left, Down
+                Sleep, 93
+                Click, 419, 316 Left, Up
+                Sleep, 79
+                Click, 419, 316 Left, Down
+                Sleep, 78
+                Click, 419, 316 Left, Up
+                Sleep, 250
+                Send, {d Down}
+                Sleep, 1515
+                Send, {d Up}
+                Sleep, 282
+                Send, {s Down}
+                Sleep, 1840
+                Send, {s Up}
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1938
+                Send, {d Up}
+                Goto, Macro41
+            }
+        }
+    }
+}
+Return
+
+Macro41:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro42
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 516
+                Send, {w Down}
+                Sleep, 2468
+                Send, {w Up}
+                Sleep, 235
+                Send, {a Down}
+                Sleep, 1781
+                Send, {a Up}
+                Sleep, 47
+                Click, 406, 253 Left, Down
+                Sleep, 109
+                Click, 406, 253 Left, Up
+                Sleep, 110
+                Click, 406, 253 Left, Down
+                Sleep, 93
+                Click, 406, 253 Left, Up
+                Sleep, 282
+                Send, {d Down}
+                Sleep, 1750
+                Send, {d Up}
+                Sleep, 297
+                Send, {s Down}
+                Sleep, 2500
+                Send, {s Up}
+                Sleep, 171
+                Send, {d Down}
+                Sleep, 2000
+                Send, {d Up}
+                Goto, Macro42
+            }
+        }
+    }
+}
+Return
+
+Macro42:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro43
+            }
+            Else
+            {
+                Sleep, 1609
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 672
+                Send, {w Down}
+                Sleep, 4094
+                Send, {w Up}
+                Sleep, 141
+                Send, {a Down}
+                Sleep, 1609
+                Click, 414, 255 Left, Down
+                Send, {a Up}
+                Sleep, 94
+                Click, 414, 255 Left, Up
+                Sleep, 94
+                Click, 414, 255 Left, Down
+                Sleep, 94
+                Click, 414, 255 Left, Up
+                Sleep, 453
+                Send, {d Down}
+                Sleep, 1547
+                Send, {d Up}
+                Sleep, 312
+                Send, {s Down}
+                Sleep, 3985
+                Send, {s Up}
+                Sleep, 156
+                Send, {d Down}
+                Sleep, 1219
+                Send, {d Up}
+                Sleep, 109
+                Send, {s Down}
+                Sleep, 95
+                Send, {s Up}
+                Sleep, 140
+                Send, {d Down}
+                Sleep, 860
+                Send, {d Up}
+                Goto, Macro43
+            }
+        }
+    }
+}
+Return
+
+Macro43:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro44
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 750
+                Send, {w Down}
+                Sleep, 3172
+                Send, {w Up}
+                Sleep, 140
+                Send, {a Down}
+                Sleep, 1750
+                Click, 391, 274 Left, Down
+                Sleep, 94
+                Send, {a Up}
+                Click, 391, 274 Left, Up
+                Sleep, 313
+                Click, 391, 274 Left, Down
+                Sleep, 109
+                Click, 391, 274 Left, Up
+                Sleep, 297
+                Send, {d Down}
+                Sleep, 1812
+                Send, {d Up}
+                Sleep, 235
+                Send, {s Down}
+                Sleep, 3125
+                Send, {s Up}
+                Sleep, 172
+                Send, {d Down}
+                Sleep, 1921
+                Send, {d Up}
+                Goto, Macro44
+            }
+        }
+    }
+}
+Return
+
+Macro44:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro78
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 375
+                Send, {w Down}
+                Sleep, 1422
+                Send, {w Up}
+                Sleep, 219
+                Send, {a Down}
+                Sleep, 1750
+                Click, 457, 248 Left, Down
+                Sleep, 47
+                Send, {a Up}
+                Sleep, 62
+                Click, 457, 248 Left, Up
+                Sleep, 250
+                Click, 457, 248 Left, Down
+                Sleep, 110
+                Click, 457, 248 Left, Up
+                Sleep, 109
+                Click, 457, 248 Left, Down
+                Sleep, 78
+                Click, 457, 248 Left, Up
+                Sleep, 313
+                Send, {d Down}
+                Sleep, 1843
+                Send, {d Up}
+                Sleep, 313
+                Send, {s Down}
+                Sleep, 1453
+                Send, {s Up}
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1922
+                Send, {d Up}
+                Goto, Macro78
+            }
+        }
+    }
+}
+Return
+
+Macro45:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro46
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 563
+                Send, {w Down}
+                Sleep, 1718
+                Send, {w Up}
+                Sleep, 47
+                Click, 510, 270 Left, Down
+                Sleep, 94
+                Click, 510, 270 Left, Up
+                Sleep, 94
+                Click, 510, 270 Left, Down
+                Sleep, 94
+                Click, 510, 270 Left, Up
+                Sleep, 328
+                Send, {s Down}
+                Sleep, 1578
+                Send, {s Up}
+                Sleep, 406
+                Send, {d Down}
+                Sleep, 1953
+                Send, {d Up}
+                Goto, Macro46
+            }
+        }
+    }
+}
+Return
+
+Macro46:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro47
+        }
+    }
+}
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+}
+Until ErrorLevel = 0
+Return
+
+Macro47:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro48
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 469
+                Send, {w Down}
+                Sleep, 109
+                Send, {w Up}
+                Sleep, 469
+                Send, {w Down}
+                Sleep, 1672
+                Send, {w Up}
+                Sleep, 218
+                Send, {d Down}
+                Sleep, 469
+                Click, 590, 306 Left, Down
+                Sleep, 16
+                Send, {d Up}
+                Sleep, 94
+                Click, 590, 306 Left, Up
+                Sleep, 78
+                Click, 590, 306 Left, Down
+                Sleep, 93
+                Click, 590, 306 Left, Up
+                Sleep, 313
+                Send, {a Down}
+                Sleep, 531
+                Send, {a Up}
+                Sleep, 250
+                Send, {s Down}
+                Sleep, 1766
+                Send, {s Up}
+                Sleep, 156
+                Send, {d Down}
+                Sleep, 1984
+                Send, {d Up}
+                Goto, Macro48
+            }
+        }
+    }
+}
+Return
+
+Macro48:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro49
+        }
+    }
+}
+Return
+
+Macro49:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro50
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 657
+                Send, {w Down}
+                Sleep, 1672
+                Send, {w Up}
+                Sleep, 218
+                Send, {d Down}
+                Sleep, 1360
+                Click, 619, 287 Left, Down
+                Sleep, 31
+                Send, {d Up}
+                Sleep, 78
+                Click, 619, 287 Left, Up
+                Sleep, 109
+                Click, 619, 287 Left, Down
+                Sleep, 79
+                Click, 619, 287 Left, Up
+                Sleep, 140
+                Send, {a Down}
+                Sleep, 1391
+                Send, {a Up}
+                Sleep, 265
+                Send, {s Down}
+                Sleep, 1632
+                Send, {s Up}
+                Sleep, 328
+                Send, {d Down}
+                Sleep, 2094
+                Send, {d Up}
+                Goto, Macro50
+            }
+        }
+    }
+}
+Return
+
+Macro50:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro51
+        }
+    }
+}
+Return
+
+Macro51:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro52
+        }
+    }
+}
+Return
+
+Macro52:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro53
+        }
+    }
+}
+Return
+
+Macro53:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro54
+        }
+    }
+}
+Return
+
+Macro54:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro55
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 375
+                Send, {w Down}
+                Sleep, 3766
+                Send, {w Up}
+                Sleep, 234
+                Send, {a Down}
+                Sleep, 1032
+                Send, {a Up}
+                Sleep, 140
+                Send, {w Down}
+                Sleep, 594
+                Send, {w Up}
+                Sleep, 31
+                Click, 490, 278 Left, Down
+                Sleep, 94
+                Click, 490, 278 Left, Up
+                Sleep, 78
+                Click, 490, 278 Left, Down
+                Sleep, 78
+                Click, 490, 278 Left, Up
+                Sleep, 375
+                Send, {s Down}
+                Sleep, 657
+                Send, {s Up}
+                Sleep, 156
+                Send, {d Down}
+                Sleep, 1015
+                Send, {d Up}
+                Sleep, 141
+                Send, {s Down}
+                Sleep, 3656
+                Send, {s Up}
+                Sleep, 157
+                Send, {d Down}
+                Sleep, 1953
+                Send, {d Up}
+                Goto, Macro55
+            }
+        }
+    }
+}
+Return
+
+Macro55:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro56
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 688
+                Send, {w Down}
+                Sleep, 3125
+                Send, {w Up}
+                Sleep, 281
+                Send, {a Down}
+                Sleep, 2656
+                Send, {a Up}
+                Sleep, 110
+                Click, 372, 266 Left, Down
+                Sleep, 109
+                Click, 372, 266 Left, Up
+                Sleep, 78
+                Click, 372, 265 Left, Down
+                Sleep, 94
+                Click, 372, 265 Left, Up
+                Sleep, 281
+                Send, {d Down}
+                Sleep, 2750
+                Send, {d Up}
+                Sleep, 281
+                Send, {s Down}
+                Sleep, 3110
+                Send, {s Up}
+                Sleep, 218
+                Send, {d Down}
+                Sleep, 1875
+                Send, {d Up}
+                Goto, Macro56
+            }
+        }
+    }
+}
+Return
+
+Macro56:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro57
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 422
+                Send, {w Down}
+                Sleep, 1953
+                Send, {w Up}
+                Sleep, 156
+                Click, 413, 296 Left, Down
+                Sleep, 110
+                Click, 413, 296 Left, Up
+                Sleep, 78
+                Click, 413, 296 Left, Down
+                Sleep, 78
+                Click, 413, 296 Left, Up
+                Sleep, 375
+                Send, {s Down}
+                Sleep, 1984
+                Send, {s Up}
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 1922
+                Send, {d Up}
+                Goto, Macro57
+            }
+        }
+    }
+}
+Return
+
+Macro57:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro58
+        }
+    }
+}
+Return
+
+Macro58:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro59
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 485
+                Send, {w Down}
+                Sleep, 1421
+                Send, {w Up}
+                Sleep, 188
+                Send, {d Down}
+                Sleep, 1422
+                Send, {d Up}
+                Sleep, 94
+                Click, 597, 299 Left, Down
+                Sleep, 109
+                Click, 597, 299 Left, Up
+                Sleep, 234
+                Click, 597, 299 Left, Down
+                Sleep, 110
+                Click, 597, 299 Left, Up
+                Sleep, 265
+                Send, {a Down}
+                Sleep, 1438
+                Send, {a Up}
+                Sleep, 281
+                Send, {s Down}
+                Sleep, 1500
+                Send, {s Up}
+                Sleep, 266
+                Send, {d Down}
+                Sleep, 2078
+                Send, {d Up}
+                Goto, Macro59
+            }
+        }
+    }
+}
+Return
+
+Macro59:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 629, 297, 673, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro60
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 594
+                Send, {w Down}
+                Sleep, 1531
+                Send, {w Up}
+                Sleep, 219
+                Send, {d Down}
+                Sleep, 1500
+                Send, {d Up}
+                Click, 610, 326 Left, 1
+                Sleep, 10
+                Sleep, 266
+                Click, 608, 326 Left, 1
+                Sleep, 10
+                Sleep, 2438
+                Click, 101, 137 Left, Down
+                Sleep, 1500
+                Click, 101, 137 Left, Up
+                Sleep, 1500
+                Click, 513, 242 Left, Down
+                Sleep, 1500
+                Click, 513, 242 Left, Up
+                Sleep, 1500
+                Click, 496, 369 Left, Down
+                Sleep, 1500
+                Click, 496, 369 Left, Up
+                Goto, Macro60
+            }
+        }
+    }
+}
+Return
+
+Macro60:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1000
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 603, 283, 611, 294, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1000
+                Send, {d Down}
+                Sleep, 2984
+                Send, {d Up}
+                Goto, Macro61
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 750
+                Send, {w Down}
+                Sleep, 2578
+                Send, {w Up}
+                Sleep, 203
+                Send, {a Down}
+                Sleep, 1641
+                Send, {a Up}
+                Click, 401, 308 Left, 1
+                Sleep, 10
+                Sleep, 203
+                Click, 389, 298 Left, 1
+                Sleep, 10
+                Sleep, 1062
+                Send, {d Down}
+                Sleep, 1610
+                Send, {d Up}
+                Sleep, 265
+                Send, {s Down}
+                Sleep, 2578
+                Send, {s Up}
+                Sleep, 688
+                Send, {s Down}
+                Sleep, 109
+                Send, {s Up}
+                Sleep, 250
+                Send, {d Down}
+                Sleep, 2094
+                Send, {d Up}
+                Goto, Macro61
+            }
+        }
+    }
+}
+Return
+
+Macro61:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro62
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 438
+                Send, {w Down}
+                Sleep, 1734
+                Send, {w Up}
+                Sleep, 16
+                Click, 493, 259 Left, Down
+                Sleep, 93
+                Click, 493, 259 Left, Up
+                Sleep, 110
+                Click, 493, 259 Left, Down
+                Sleep, 94
+                Click, 493, 259 Left, Up
+                Sleep, 281
+                Send, {s Down}
+                Sleep, 1687
+                Send, {s Up}
+                Sleep, 313
+                Send, {d Down}
+                Sleep, 1922
+                Send, {d Up}
+                Goto, Macro62
+            }
+        }
+    }
+}
+Return
+
+Macro62:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro63
+        }
+    }
+}
+Return
+
+Macro63:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro64
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 344
+                Send, {w Down}
+                Sleep, 1438
+                Send, {w Up}
+                Sleep, 296
+                Send, {d Down}
+                Sleep, 1391
+                Send, {d Up}
+                Sleep, 344
+                Click, 588, 302 Left, Down
+                Sleep, 94
+                Click, 588, 302 Left, Up
+                Sleep, 46
+                Click, 588, 302 Left, Down
+                Sleep, 110
+                Click, 588, 302 Left, Up
+                Sleep, 250
+                Send, {a Down}
+                Sleep, 1453
+                Send, {a Up}
+                Sleep, 422
+                Send, {s Down}
+                Sleep, 1515
+                Send, {s Up}
+                Sleep, 454
+                Send, {d Down}
+                Sleep, 1968
+                Send, {d Up}
+                Goto, Macro64
+            }
+        }
+    }
+}
+Return
+
+Macro64:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro65
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 281
+                Send, {w Down}
+                Sleep, 2781
+                Send, {w Up}
+                Sleep, 219
+                Send, {a Down}
+                Sleep, 1687
+                Send, {a Up}
+                Sleep, 172
+                Sleep, 109
+                Click, 415, 292 Left, Down
+                Sleep, 94
+                Click, 415, 292 Left, Up
+                Sleep, 78
+                Click, 415, 292 Left, Down
+                Sleep, 63
+                Click, 415, 292 Left, Up
+                Sleep, 78
+                Click, 415, 292 Left, Down
+                Sleep, 94
+                Click, 415, 292 Left, Up
+                Send, {d Down}
+                Sleep, 1718
+                Send, {d Up}
+                Sleep, 344
+                Send, {s Down}
+                Sleep, 2734
+                Send, {s Up}
+                Sleep, 391
+                Send, {d Down}
+                Sleep, 1906
+                Send, {d Up}
+                Goto, Macro65
+            }
+        }
+    }
+}
+Return
+
+Macro65:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro66
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 422
+                Send, {w Down}
+                Sleep, 1515
+                Send, {w Up}
+                Sleep, 141
+                Send, {d Down}
+                Sleep, 1250
+                Send, {d Up}
+                Sleep, 31
+                Click, 603, 317 Left, Down
+                Sleep, 78
+                Click, 603, 317 Left, Up
+                Sleep, 79
+                Click, 603, 317 Left, Down
+                Sleep, 93
+                Click, 603, 317 Left, Up
+                Sleep, 141
+                Send, {a Down}
+                Sleep, 1375
+                Send, {a Up}
+                Sleep, 172
+                Send, {s Down}
+                Sleep, 1469
+                Send, {s Up}
+                Sleep, 312
+                Send, {d Down}
+                Sleep, 2094
+                Send, {d Up}
+                Goto, Macro66
+            }
+        }
+    }
+}
+Return
+
+Macro66:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro67
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 375
+                Send, {w Down}
+                Sleep, 2016
+                Send, {w Up}
+                Sleep, 312
+                Send, {a Down}
+                Sleep, 1344
+                Send, {a Up}
+                Sleep, 141
+                Click, 414, 271 Left, Down
+                Sleep, 78
+                Click, 414, 271 Left, Up
+                Sleep, 78
+                Click, 414, 271 Left, Down
+                Sleep, 94
+                Click, 414, 271 Left, Up
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1485
+                Send, {d Up}
+                Sleep, 312
+                Send, {s Down}
+                Sleep, 2047
+                Send, {s Up}
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1938
+                Send, {d Up}
+                Goto, Macro67
+            }
+        }
+    }
+}
+Return
+
+Macro67:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro68
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 375
+                Send, {w Down}
+                Sleep, 1891
+                Send, {w Up}
+                Sleep, 406
+                Send, {a Down}
+                Sleep, 766
+                Send, {a Up}
+                Sleep, 375
+                Send, {w Down}
+                Sleep, 750
+                Send, {w Up}
+                Sleep, 359
+                Send, {a Down}
+                Sleep, 656
+                Send, {a Up}
+                Sleep, 625
+                Click, 442, 273 Left, Down
+                Sleep, 79
+                Click, 442, 273 Left, Up
+                Sleep, 250
+                Click, 442, 273 Left, Down
+                Sleep, 93
+                Click, 442, 273 Left, Up
+                Sleep, 422
+                Send, {s Down}
+                Sleep, 906
+                Send, {s Up}
+                Sleep, 204
+                Send, {d Down}
+                Sleep, 765
+                Send, {d Up}
+                Sleep, 203
+                Send, {w Down}
+                Sleep, 125
+                Send, {w Up}
+                Sleep, 282
+                Send, {d Down}
+                Sleep, 531
+                Send, {d Up}
+                Sleep, 297
+                Send, {s Down}
+                Sleep, 187
+                Send, {s Up}
+                Sleep, 188
+                Send, {d Down}
+                Sleep, 218
+                Send, {d Up}
+                Sleep, 297
+                Send, {s Down}
+                Sleep, 1766
+                Send, {s Up}
+                Sleep, 594
+                Send, {s Down}
+                Sleep, 47
+                Send, {s Up}
+                Sleep, 296
+                Send, {d Down}
+                Sleep, 1907
+                Send, {d Up}
+                Goto, Macro68
+            }
+        }
+    }
+}
+Return
+
+Macro68:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro69
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 359
+                Send, {w Down}
+                Sleep, 3735
+                Send, {w Up}
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 1234
+                Send, {d Up}
+                Sleep, 47
+                Click, 516, 241 Left, Down
+                Sleep, 109
+                Click, 516, 241 Left, Up
+                Sleep, 94
+                Click, 516, 241 Left, Down
+                Sleep, 78
+                Click, 516, 241 Left, Up
+                Sleep, 266
+                Send, {a Down}
+                Sleep, 1265
+                Send, {a Up}
+                Sleep, 219
+                Send, {s Down}
+                Sleep, 3725
+                Send, {s Up}
+                Sleep, 203
+                Send, {d Down}
+                Sleep, 2047
+                Send, {d Up}
+                Goto, Macro69
+            }
+        }
+    }
+}
+Return
+
+Macro69:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro70
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 485
+                Send, {w Down}
+                Sleep, 2328
+                Send, {w Up}
+                Sleep, 78
+                Click, 443, 276 Left, Down
+                Sleep, 109
+                Click, 443, 276 Left, Up
+                Sleep, 79
+                Click, 443, 276 Left, Down
+                Sleep, 93
+                Click, 443, 276 Left, Up
+                Sleep, 313
+                Send, {s Down}
+                Sleep, 2265
+                Send, {s Up}
+                Sleep, 313
+                Send, {d Down}
+                Sleep, 1906
+                Send, {d Up}
+                Goto, Macro70
+            }
+        }
+    }
+}
+Return
+
+Macro70:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro71
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 562
+                Send, {w Down}
+                Sleep, 3969
+                Send, {w Up}
+                Sleep, 203
+                Click, 430, 294 Left, Down
+                Sleep, 78
+                Click, 430, 294 Left, Up
+                Sleep, 78
+                Click, 430, 294 Left, Down
+                Sleep, 79
+                Click, 430, 294 Left, Up
+                Sleep, 328
+                Send, {s Down}
+                Sleep, 3828
+                Send, {s Up}
+                Sleep, 265
+                Send, {s Down}
+                Sleep, 125
+                Send, {s Up}
+                Sleep, 219
+                Send, {d Down}
+                Sleep, 1969
+                Send, {d Up}
+                Goto, Macro71
+            }
+        }
+    }
+}
+Return
+
+Macro71:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro72
+        }
+    }
+}
+Return
+
+Macro72:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro73
+        }
+    }
+}
+Return
+
+Macro73:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro74
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 641
+                Send, {w Down}
+                Sleep, 1531
+                Send, {w Up}
+                Sleep, 188
+                Send, {a Down}
+                Sleep, 1000
+                Send, {a Up}
+                Sleep, 109
+                Click, 414, 264 Left, Down
+                Sleep, 109
+                Click, 414, 264 Left, Up
+                Sleep, 63
+                Click, 414, 264 Left, Down
+                Sleep, 94
+                Click, 414, 264 Left, Up
+                Sleep, 234
+                Send, {d Down}
+                Sleep, 1016
+                Send, {d Up}
+                Sleep, 265
+                Send, {s Down}
+                Sleep, 1516
+                Send, {s Up}
+                Sleep, 125
+                Send, {d Down}
+                Sleep, 1984
+                Send, {d Up}
+                Goto, Macro74
+            }
+        }
+    }
+}
+Return
+
+Macro74:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro75
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 359
+                Send, {d Up}
+                Sleep, 359
+                Send, {d Down}
+                Sleep, 1094
+                Send, {d Up}
+                Sleep, 203
+                Send, {w Down}
+                Sleep, 3812
+                Send, {w Up}
+                Sleep, 157
+                Send, {a Down}
+                Sleep, 797
+                Send, {a Up}
+                Sleep, 109
+                Click, 395, 283 Left, Down
+                Sleep, 78
+                Click, 395, 283 Left, Up
+                Sleep, 78
+                Click, 395, 283 Left, Down
+                Sleep, 78
+                Click, 395, 283 Left, Up
+                Sleep, 250
+                Send, {d Down}
+                Sleep, 828
+                Send, {d Up}
+                Sleep, 219
+                Send, {s Down}
+                Sleep, 3797
+                Send, {s Up}
+                Sleep, 141
+                Send, {d Down}
+                Sleep, 1875
+                Send, {d Up}
+                Goto, Macro75
+            }
+        }
+    }
+}
+Return
+
+Macro75:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro76
+        }
+    }
+}
+Return
+
+Macro76:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 757, 299, 799, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1500
+            Send, {d Down}
+            Sleep, 3000
+            Send, {d Up}
+            Goto, Macro77
+        }
+    }
+}
+Return
+
+Macro77:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 552, 298, 603, 317, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 486, 281, 494, 299, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel = 0)
+            {
+                Sleep, 1500
+                Send, {d Down}
+                Sleep, 3000
+                Send, {d Up}
+                Goto, Macro78
+            }
+            Else
+            {
+                Sleep, 1500
+                Sleep, 609
+                Send, {d Down}
+                Sleep, 1109
+                Send, {d Up}
+                Sleep, 813
+                Send, {w Down}
+                Sleep, 2703
+                Send, {w Up}
+                Sleep, 234
+                Send, {a Down}
+                Sleep, 1594
+                Send, {a Up}
+                Sleep, 125
+                Click, 417, 286 Left, Down
+                Sleep, 94
+                Click, 417, 286 Left, Up
+                Sleep, 62
+                Click, 417, 286 Left, Down
+                Sleep, 94
+                Click, 417, 286 Left, Up
+                Sleep, 2000
+                Click, 107, 136 Left, 1
+                Sleep, 10
+                Sleep, 2000
+                Click, 512, 239 Left, 1
+                Sleep, 10
+                Sleep, 2000
+                Click, 415, 366 Left, 1
+                Sleep, 10
+                Goto, Macro78
+            }
+        }
+    }
+}
+Return
+
+Macro78:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Loop
+        {
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 629, 297, 673, 316, 0xFFFFFF, 5, Fast RGB
+        }
+        Until ErrorLevel = 0
+        If (ErrorLevel = 0)
+        {
+            Sleep, 1000
+            CoordMode, Pixel, Screen
+            PixelSearch, FoundX, FoundY, 603, 283, 611, 294, 0x9F5C4E, 3, Fast RGB
+            If (ErrorLevel)
+            {
+                Sleep, 1140
+                Sleep, 1500
+                Send, {w Down}
+                Sleep, 1188
+                Send, {w Up}
+                Sleep, 1016
+                Send, {a Down}
+                Sleep, 2140
+                Send, {a Up}
+                Goto, Macro80
+            }
+            Else
+            {
+                Click, 845, 13 Left, 1
+                Sleep, 10
+                Sleep, 5000
+                Goto, Macro80
+            }
+        }
+    }
+}
+Return
+
+Macro79:
+Loop
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+}
+Until ErrorLevel = 0
+If (ErrorLevel = 0)
+{
+    Loop
+    {
+        CoordMode, Pixel, Screen
+        PixelSearch, FoundX, FoundY, 49, 101, 102, 143, 0x000000, 0, Fast RGB
+    }
+    Until ErrorLevel
+    If (ErrorLevel)
+    {
+        Sleep, 8000
+        Send, {w Down}
+        Sleep, 4328
+        Send, {w Up}
+        Sleep, 1000
+        Click, 843, 18 Left, Down
+        Sleep, 10
+        Sleep, 30
+        Click, 843, 18 Left, Up
+        Sleep, 10
+        Goto, Macro80
+        Sleep, 10000
+    }
+}
+Return
+
+F2::
+Macro80:
+CoordMode, Pixel, Screen
+PixelSearch, FoundX, FoundY, 369, 16, 417, 41, 0x000000, 0, Fast RGB
+If (ErrorLevel = 0)
+{
+    Sleep, 2500
+    Click, 130, 1064 Left, 1
+    Sleep, 50
+    Sleep, 2500
+    Click, 168, 1060 Left, 1
+    Sleep, 50
+    Sleep, 2500
+    Click, 204, 1061 Left, 1
+    Sleep, 50
+    Sleep, 2500
+    Click, 237, 1066 Left, 1
+    Sleep, 50
+    Sleep, 2500
+    Click, 281, 1061 Left, 1
+    Sleep, 50
+    Goto, Macro80
+}
+Else
+{
+    CoordMode, Pixel, Screen
+    PixelSearch, FoundX, FoundY, 13, 136, 16, 141, 0xE3FF37, 0, Fast RGB
+    If (ErrorLevel)
+    {
+        Sleep, 1000
+        Click, 837, 15 Left, 1
+        Sleep, 10
+        Goto, Macro80
+    }
+    Else
+    {
+        Sleep, 1000
+        Click, 108, 135 Left, 1
+        Sleep, 10
+        Sleep, 1000
+        Click, 513, 241 Left, 1
+        Sleep, 10
+        Sleep, 1000
+        Click, 585, 366 Left, 1
+        Sleep, 10
+        Sleep, 1000
+        Goto, Macro1
+    }
+}
+Return
+
